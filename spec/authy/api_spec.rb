@@ -45,7 +45,7 @@ describe "Authy::API" do
         :email => generate_email,
         :cellphone => generate_cellphone,
         :country_code => 1,
-        :send_instal_link_via_sms => false #default is true. See http://docs.authy.com/totp.html#totp-api
+        :send_install_link_via_sms => false #default is true. See http://docs.authy.com/totp.html#totp-api
       )
 
       user.should be_kind_of(Authy::Response)
